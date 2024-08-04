@@ -1,0 +1,108 @@
+/* Global reset or normalize */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Specific styles for ExchangePop1 */
+.popup1 {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 1000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup1-inner {
+  position: relative;
+  padding: 32px;
+  max-width: 640px;
+  background-color: #FFFFFF;
+}
+
+.popup1-inner .close-btn1 {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+} 
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.exchange.box {
+  position: relative;
+  width: 600px;
+  height: auto; /* Adjust height as needed */
+  top: 20px;
+  right: 10px;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exchange.box h1 {
+  width: 80%;
+  margin-left: 60px;
+  font-size: 36px;
+  text-align: center;
+  background: #E0E0E0;
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+}
+
+.exchange.box h3 {
+  margin-left: 80px;
+  width: 40%;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.exchange.box .exchange.input {
+  margin-left: 80px;
+  width: 70%;
+  align-items: center;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.exchange.box input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #E0E0E0;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 10px 45px 10px 10px;
+}
+
+.exchange.input input::placeholder {
+  position: absolute;
+  left: 15px;
+}
+
+.exchange.box button {
+  width: full;
+  height: 40px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #E0E0E0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000000;
+  display: block;
+}
+
+/* Other styles for your website */
+/* Ensure other styles do not inadvertently affect the popup */
